@@ -25,6 +25,6 @@ public class calculateGrade {
         studentGrade = studentScore / pointTotal;
         studentGrade = studentGrade * 100;
 
-        System.out.println(studentName + "'s percent grade is " + studentGrade + "%.");
+        System.out.println(studentName + "'s percent grade is " + studentGrade + "%.\n");
     }
 }

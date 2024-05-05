@@ -12,7 +12,7 @@ public class saveGradebook {
                 Writer.write(grade + "\n");
             }
             Writer.close();
-            System.out.println("Grades successfully added to your gradebook!");
+            System.out.println("Grades successfully added to your gradebook!\n");
         } catch (IOException e) {
             System.out.println("Error!");
             e.printStackTrace();

@@ -8,9 +8,9 @@ public class createGradebook {
             // Create a new file to be saved in the same folder the java files come from.
             File newGradebook = new File(filename);
             if (newGradebook.createNewFile()) {
-                System.out.println("New gradebook " + filename + "created successfully!");
+                System.out.println("New gradebook " + filename + " created successfully!\n");
             } else {
-                System.out.println("Gradebook, " + filename + " already exists.");
+                System.out.println("Gradebook, " + filename + " already exists.\n");
             }
         } catch (IOException e) {
             System.out.println("Error!");
